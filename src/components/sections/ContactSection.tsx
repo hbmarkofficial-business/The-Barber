@@ -42,7 +42,7 @@ export const ContactSection = () => {
             </h2>
 
             <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-              Vereinbaren Sie noch heute Ihren Termin und erleben Sie
+              Vereinbaren Sie noch heute Ihren Termin bei <strong>The Barber</strong> in Bonn und erleben Sie
               erstklassigen Service in stilvollem Ambiente.
             </p>
 
@@ -55,7 +55,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Adresse</h4>
                   <p className="text-muted-foreground">
-                    Färberstraße 54, 90402 Nürnberg
+                    Clemens-August-Straße 62, 53115 Bonn
                   </p>
                 </div>
               </div>
@@ -68,10 +68,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Telefon</h4>
                   <a
-                    href="tel:015118311067"
+                    href="tel:022892121341"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    015118311067
+                    022892121341
                   </a>
                 </div>
               </div>
@@ -84,9 +84,9 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Öffnungszeiten</h4>
                   <p className="text-muted-foreground">
-                    Mo. – Fr. 10:00–20:00 Uhr
+                    Mo. – Fr. 9:00–19:00 Uhr
                     <br />
-                    Sa. 10:00–19:00 Uhr
+                    Sa. 9:00–17:00 Uhr
                   </p>
                 </div>
               </div>
@@ -99,7 +99,7 @@ export const ContactSection = () => {
               </Button>
 
               <Button variant="goldOutline" size="xl" asChild>
-                <a href="tel:+4917629117689">Jetzt anrufen</a>
+                <a href="tel:022892121341">Jetzt anrufen</a>
               </Button>
             </div>
           </AnimateOnScroll>
@@ -116,7 +116,7 @@ export const ContactSection = () => {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Standort Top Salon – Nürnberg"
+                  title="Standort The Barber – Bonn"
                 />
               </div>
 
@@ -126,7 +126,7 @@ export const ContactSection = () => {
                   Kostenlose Parkplätze
                 </p>
                 <p className="text-muted-foreground text-sm">
-                  Direkt vor dem Salon verfügbar
+                  Direkt vor dem Salon in Bonn verfügbar
                 </p>
               </div>
             </div>
