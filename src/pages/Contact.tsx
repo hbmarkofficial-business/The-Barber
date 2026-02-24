@@ -39,10 +39,6 @@ const Contact = () => {
               "latitude": "48.2167",
               "longitude": "16.3958"
             },
-            "areaServed": {
-              "@type": "AdministrativeArea",
-              "name": "Wien"
-            },
             "openingHoursSpecification": [
               {
                 "@type": "OpeningHoursSpecification",
@@ -96,8 +92,6 @@ const Contact = () => {
         <section className="py-24 bg-charcoal">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-              {/* Reihenfolge für Desktop: Chatbot links, Kontakt rechts
-                  Reihenfolge für Mobile: Chatbot oben, Kontakt unten */}
               <AnimateOnScroll animation="slide-left" className="order-1 lg:order-1">
                 <div className="bg-card border border-border rounded-sm p-8 md:p-10 h-fit">
                   <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-6">
@@ -138,14 +132,13 @@ const Contact = () => {
                       Oder rufen Sie uns direkt an:
                     </p>
                     <a 
-                      href="tel:015118311067" 
+                      href="tel:022892121341" 
                       className="block text-center text-primary font-semibold mt-2 hover:underline"
                     >
-                      015118311067
+                      022892121341
                     </a>
                   </div>
 
-                  {/* Alternative Buchung Block */}
                   <div className="mt-8 pt-8 border-t border-border">
                     <p className="text-muted-foreground text-center mb-6 leading-relaxed">
                       Alternativ können Sie direkt hier die Verfügbarkeit Ihres Wunschtermins prüfen oder einen Termin buchen:
@@ -205,10 +198,10 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">Telefon</h3>
                         <a 
-                          href="tel:015118311067" 
+                          href="tel:022892121341" 
                           className="text-muted-foreground hover:text-primary transition-colors"
                         >
-                          015118311067
+                          022892121341
                         </a>
                       </div>
                     </div>
@@ -220,7 +213,7 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">E-Mail</h3>
                         <a 
-                          href="mailto:info@gentlemanscut.de" 
+                          href="mailto:info@mustershop.de" 
                           className="text-muted-foreground hover:text-primary transition-colors"
                         >
                           info@mustershop.de
@@ -235,8 +228,8 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">Öffnungszeiten</h3>
                         <ul className="text-muted-foreground space-y-1 text-sm">
-                          <li>Mo - Fr: 10:00 - 20:00</li>
-                          <li>Samstag: 10:00 - 19:00</li>
+                          <li>Mo - Fr: 9:00 - 19:00</li>
+                          <li>Samstag: 9:00 - 17:00</li>
                           <li>Sonntag: Geschlossen</li>
                         </ul>
                       </div>
@@ -245,14 +238,14 @@ const Contact = () => {
 
                   <div className="aspect-video rounded-sm overflow-hidden border border-border mt-8">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.935844488252!2d11.069183276892435!3d49.44792955903806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f57a835434d4d%3A0xfba938ebd99d6f67!2sTop%20Salon%20-%20N%C3%BCrnberg!5e0!3m2!1sde!2sde!4v1769779552025!5m2!1sde!2sde"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1293265.3360538224!2d4.648595156249998!3d50.72163000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bee1ffa1843b03%3A0x8cf73828a4f99f22!2sThe%20Barber!5e0!3m2!1sde!2sde!4v1771951177539!5m2!1sde!2sde"
                       width="100%"
                       height="100%"
                       style={{ border: 0, filter: 'grayscale(100%) contrast(1.2)' }}
                       allowFullScreen
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
-                      title="Standort The Gentleman's Cut"
+                      title="Standort The Barber"
                     />
                   </div>
                 </div>
